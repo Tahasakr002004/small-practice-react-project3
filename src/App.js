@@ -10,10 +10,10 @@ function App () {
     })
   }
   return (
-    <div>
+    <>
       <AddUser onAddUser={userSupplier} />
       <UserList users={enteredUserList} />
-    </div>
+    </>
   );
 }
 
